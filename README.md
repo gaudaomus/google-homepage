@@ -1,0 +1,1 @@
+Create a copy of the Google homepage to practice HTML and CSS basics
