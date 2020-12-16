@@ -5,16 +5,36 @@
   </head>
 
   <body>
-    <img id="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="the google logo">
-    <input id="searchbar" type="text" name="query" value="">
-    <nav>
-      <a class="navbar" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
-      <a class="navbar" href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
-      <a class="navbar" href="https://mail.google.com/">Gmail</a>
-      <a class="navbar" href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Image</a>
-      <a class="navbar" href="#">Grid Image</a>
-      <a class="navbar" href="#">Sign In</a>
+    <nav class="nav-container">
+      <a class="nav-item" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+      <a class="nav-item" href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+      <a class="nav-item" href="https://mail.google.com/">Gmail</a>
+      <a class="nav-item" href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Image</a>
+      <a class="nav-item" href="#"><img id="apps-icon" src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_apps_48px-512.png"></a>
+      <a class="nav-item" id="sign-in" href="#">Sign In</a>
     </nav>
+    <img id="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="the google logo">
+    <div class="search-container">
+      <img id="magnifying-lens" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png" alt="search icon">
+      <input id="searchbar" type="text" name="query" value="">
+      <img id="google-mic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png" alt="google mic icon">
+    </div>
+    <div id="button-container">
+      <button id="search-button" class="button" type="submit" name="search">Google Search</button>
+      <button id="lucky-button" class="button" type="submit" name="lucky">I'm Feeling Lucky</button>
+    </div>
   </body>
+<!--
+  <footer>
+    <nav class="foot-container">
+      <a class="foot-item" href="#">Advertising</a>
+      <a class="foot-item" href="#">Business</a>
+      <a class="foot-item" href="#">How Search works</a>
+      <a class="foot-item" href="#">Privacy</a>
+      <a class="foot-item" href="#">Terms</a>
+      <a class="foot-item" href="#">Sign Settings</a>
+    </nav>
+  </footer>
+-->
 
 </html>
